@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+/* Variaveis globais */
+:root {
+  --font-family: "Roboto", sans-serf;
+  --bold-font: 700;
+  --bg-color: white;
+  --primary-color: black;
+  --secondary-color: blue;
+  --transition: 0.3s;
+}
+
+
+.oak {
+  text-align: center;
+padding: 25px;
+margin-right: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+/* css da barra de navegação */
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  nav h1 {
+    color: var(--primary-color);
+  }
+  
+  nav a {
+    color: var(--primary-color);
+    transition: var(--transition);
+  }
+  nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 1.9rem;
+  }
+  
+  nav ul li {
+    font-weight: var(--bold-font);
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+  
+/* css da imagem e da box shadow */
+
+  img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    margin-left: 100px;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+  
+  .seilá {
+    font-style: italic;
+    font-size: larger;
+    background-color: lightgrey;
+    padding: 30px;
+    border-radius: 25px;
+    margin-right: 90px;
+    margin-top: 25px;
+  }
+
+  /* Mais Sobre */
+.mais-sobre {
+  background-color: var(--bg-color);
+  padding: 1rem 6rem;
+}
+
+.mais-sobre h2 {
+  margin-bottom: var(--bottom-margin);
+  text-align: center;
+}
+
+.mais-sobre p {
+  line-height: var(--line-height);
+  padding: 0.4rem;
+}
+  
+/* habilidades */
+
+.habilidades {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.habilidade-header {
+  margin-bottom: 1rem;
+}
+
+.habilidade5 img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+
+/* habilidades e botoes d contato juntei odeio front end*/
+
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.habilidade-header {
+  margin-bottom: 1rem;
+}
+
+.habilidade5 img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+  
+.container2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dusd {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.box {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  background-color: white;
+  box-shadow: 5px 5px 10px gray;
+  padding: 10px;
+}
+
